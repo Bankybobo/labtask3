@@ -1,0 +1,66 @@
+.box5 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: rgb(245, 245, 56);
+}
+
+.box3 {
+  background-color: lightslategray;
+}
+
+.box1 {
+  background-color: rgb(10, 82, 72);
+}
+
+.box4 {
+  background-color: rgb(255, 94, 0);
+}
+
+.box6 {
+  background-color: green;
+}
+
+.box7 {
+  background-color: purple;
+}
+
+.box8 {
+  background-color: rgb(255, 145, 163);
+}
+
+.box9 {
+  background-color: navy;
+}
+
+.box10 {
+  background-color: rgb(32, 122, 151);
+}
+
+.another-main {
+  padding: 10px 0px;
+  border-bottom: 1px dashed black;
+}
+
+.content-right2 {
+  width: 120px;
+  height: 120px;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.main-3 {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  margin-bottom:40px;
+}
+
+.main-3 .last-flex {
+  padding: 10px 10px;
+}
+
+
+

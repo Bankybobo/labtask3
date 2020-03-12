@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    /* The padding will not increase the box when will add padding to a box */
+}
+
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.container {
+    width: 960px;
+    min-height: 600px;
+    margin: 0 auto;
+    /* margin top and bottom will be 0, margin left and right will be divided evenly between the left and right with auto */
+    background: #fff;
+}
+
+.container nav {
+    width: 100%;
+    height: 50px;
+}
+
+.container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.container nav ul li {
+    float: left;
+    padding-top: 7px;
+}
+
+.container nav ul li a{
+color: black;
+font-weight: bold;
+display: inline-block;
+text-decoration: none;
+padding: 20px 20px;
+border-radius: 20px;
+text-decoration: none;
+margin: 0 7px;
+margin-bottom: 10px;
+}
+
+.container nav span a{
+color: black;
+font-weight: bold;
+display: inline-block;
+text-decoration: none;
+padding: 20px 20px;
+border-radius: 20px;
+text-decoration: none;
+margin: 0 7px;
+margin-bottom: 10px;
+}
+
+
+.container nav ul li a:hover {
+    color: red;
+}
+
+.container .slider .content img {
+    width: 100%;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.container .about-text {
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    border-bottom: ;
+}
+
+.container .content-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom:40px;
+  }
+  
+  .container .content-row .content-left{
+    flex-basis: 40%;
+    width: 50%;
+    padding: 20px 0px;
+    border-bottom: 1px dashed black;
+    text-align: start;
+
+  }
+ 
+  .container .content-row .content-right{
+    flex-basis: 40%;
+    width: 50%;
+    padding: 20px 0px;
+    border-bottom: 1px dashed black;
+    text-align: start;
+  }
+  
+  .container .content-row .content-left img{
+    width: 460px; 
+  }
+  
+  .container .content-row .content-right img{
+    width: 460px;
+  }
+  
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.btn a{
+    color: black;
+    text-decoration: none;
+}
+
+.down-nav {
+    background-color: black;
+    color: white;
+}
+
+.container .down-nav ul li a{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 7px;
+    margin-bottom: 10px;
+}
+
+.container .down-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.hover-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.hover-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    background-color: red;    
+}
+
+.hover-link2::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.hover-link2:hover::after {
+    width: 100%;
+    transition: width .5s;
+    background-color: white;    
+}
+
+.container .content-row1 {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    margin-bottom:40px;
+    border-bottom: 1px dashed black;
+    /* background-color: red; */
+  }
+
+
+.container .content-row1 .content-left1{
+    /* flex-basis: 40%; */
+    width: 460px;
+    padding: 10px 15px;
+    text-align: start; 
+
+  }
+ 
+  .container .content-row1 .content-right1{
+    /* flex-basis: 40%; */
+    width: 460px;
+    padding: 10px 15px;
+    text-align: start;
+  }
+
+  .container .content-row2 {
+    display: flex;
+    width: 960px;
+    justify-content: space-around;
+    margin-bottom:40px;
+  }
+
+  .test-nav {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    margin-bottom:40px;
+  }
+  
+  .tester {
+    padding: 10px 10px;
+  }
+
+  .container .test-nav {
+      /* background-color: yellow; */
+      padding: 20px 20px;
+      margin: 0;
+  }
+
+  .container .test-nav ul {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+  }
+
+  .container .test-nav ul li a {
+    padding-top: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.container .test-nav ul li a:hover {
+  font-weight: bold;
+  color: red;
+}
+
+.container .test-nav ul li {
+list-style: none;
+}
+
+ 
+  
+  
